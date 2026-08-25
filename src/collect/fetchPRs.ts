@@ -98,8 +98,9 @@ export async function fetchAllPRs(days: number): Promise<void> {
     console.log(`\nFetching merged PRs — last ${days} days of ${config.repo}`);
   }
 
+  const startSize = completedRanges.size;
   for (const [i, { from, to }] of remaining.entries()) {
-    const overallIndex = completedRanges.size + i + 1;
+    const overallIndex = startSize + i + 1;
     console.log(`\n[${overallIndex}/${ranges.length}] ${from} → ${to}`);
 
     const prs = await fetchRange(from, to);

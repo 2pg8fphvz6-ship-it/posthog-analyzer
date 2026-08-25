@@ -175,6 +175,7 @@ export function App() {
             <th style={styles.th}>Impact score</th>
             <th style={styles.th}>PRs merged</th>
             <th style={{ ...styles.th, width: 320 }}>Dimension breakdown</th>
+            <th style={{ ...styles.th, width: 24 }} />
           </tr>
         </thead>
         <tbody>
@@ -184,6 +185,7 @@ export function App() {
               rank={i + 1}
               total={data.engineerCount}
               engineer={eng}
+              weights={data.weights}
               sinceDate={sinceDate}
               isExpanded={expanded === eng.login}
               onToggle={() => setExpanded(prev => (prev === eng.login ? null : eng.login))}
@@ -199,15 +201,66 @@ interface RowProps {
   rank: number;
   total: number;
   engineer: EngineerScore;
+  weights: Record<keyof DimensionScores, number>;
   sinceDate: string;
   isExpanded: boolean;
   onToggle: () => void;
 }
 
-function EngineerRow({ rank, total, engineer, sinceDate, isExpanded, onToggle }: RowProps) {
+function ScoreTooltip({ engineer, weights }: { engineer: EngineerScore; weights: Record<keyof DimensionScores, number> }) {
+  const [visible, setVisible] = useState(false);
+  const scoreInt = Math.round(engineer.impact * 100);
+  const dims = engineer.dimensions;
+
+  const rows = (Object.keys(DIMENSION_LABELS) as (keyof DimensionScores)[]).map(dim => ({
+    dim,
+    label: DIMENSION_LABELS[dim],
+    score: Math.round(dims[dim] * 100),
+    weight: weights[dim],
+    points: dims[dim] * weights[dim] * 100,
+  }));
+
+  return (
+    <div
+      style={{ position: 'relative', display: 'inline-block' }}
+      onMouseEnter={() => setVisible(true)}
+      onMouseLeave={() => setVisible(false)}
+    >
+      <span style={{ fontWeight: 700, fontSize: 20, borderBottom: '1px dashed #444', cursor: 'default' }}>
+        {scoreInt}
+      </span>
+      <span style={{ color: '#444', fontSize: 12 }}> /100</span>
+      {visible && (
+        <div style={styles.scoreTooltip}>
+          <div style={{ color: '#888', fontSize: 11, marginBottom: 8, paddingBottom: 6, borderBottom: '1px solid #2a2a2a' }}>
+            impact = weighted sum of percentile ranks
+          </div>
+          {rows.map(({ dim, label, score, weight, points }) => (
+            <div key={dim} style={{ display: 'flex', justifyContent: 'space-between', gap: 12, marginBottom: 5 }}>
+              <span style={{ color: DIMENSION_COLORS[dim], fontSize: 12, minWidth: 90 }}>{label}</span>
+              <span style={{ color: '#aaa', fontSize: 12, fontVariantNumeric: 'tabular-nums' }}>
+                {score} <span style={{ color: '#444' }}>×</span> {Math.round(weight * 100)}%
+              </span>
+              <span style={{ color: '#e8e8e8', fontSize: 12, fontWeight: 600, fontVariantNumeric: 'tabular-nums', minWidth: 30, textAlign: 'right' }}>
+                {points.toFixed(1)}
+              </span>
+            </div>
+          ))}
+          <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: 6, borderTop: '1px solid #2a2a2a', marginTop: 2 }}>
+            <span style={{ color: '#555', fontSize: 12 }}>Total</span>
+            <span style={{ color: '#f97316', fontSize: 13, fontWeight: 700, fontVariantNumeric: 'tabular-nums' }}>
+              {rows.reduce((s, r) => s + r.points, 0).toFixed(1)}
+            </span>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function EngineerRow({ rank, total, engineer, weights, sinceDate, isExpanded, onToggle }: RowProps) {
   const dims = engineer.dimensions;
   const isTop3 = rank <= 3;
-  const scoreInt = Math.round(engineer.impact * 100);
 
   return (
     <>
@@ -237,8 +290,7 @@ function EngineerRow({ rank, total, engineer, sinceDate, isExpanded, onToggle }:
           </a>
         </td>
         <td style={{ ...styles.td, textAlign: 'center' }}>
-          <span style={{ fontWeight: 700, fontSize: 20 }}>{scoreInt}</span>
-          <span style={{ color: '#444', fontSize: 12 }}> /100</span>
+          <ScoreTooltip engineer={engineer} weights={weights} />
           <div style={{ fontSize: 11, color: '#555', marginTop: 2 }}>
             top {Math.round((1 - (rank - 1) / total) * 100)}% of cohort
           </div>
@@ -247,10 +299,15 @@ function EngineerRow({ rank, total, engineer, sinceDate, isExpanded, onToggle }:
         <td style={styles.td}>
           <DimBars dims={dims} />
         </td>
+        <td style={{ ...styles.td, color: '#555', fontSize: 28, userSelect: 'none', textAlign: 'center' }}>
+          <span style={{ display: 'inline-block', transition: 'transform 0.2s', transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)' }}>
+            ▾
+          </span>
+        </td>
       </tr>
       {isExpanded && (
         <tr style={{ background: '#1a1a1a' }}>
-          <td colSpan={5} style={{ padding: '12px 24px 20px' }}>
+          <td colSpan={6} style={{ padding: '12px 24px 20px' }}>
             {engineer.metrics
               ? <DimDetail dims={dims} metrics={engineer.metrics} login={engineer.login} sinceDate={sinceDate} />
               : <p style={{ color: '#666', fontSize: 13 }}>Run <code>npm run score</code> to generate metrics.</p>
@@ -327,42 +384,61 @@ function DimDetail({ dims, metrics, login, sinceDate }: {
     ? Math.round((metrics.codePRsWithTests / metrics.codePRsTotal) * 100)
     : 0;
 
+  const topTypeStr = Object.entries(metrics.prsByType)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 2)
+    .map(([t, n]) => `${n} ${t}`)
+    .join(', ');
+
+  const codeImpactDesc = `Merged ${metrics.prsMerged} PRs touching ${metrics.linesChanged.toLocaleString()} lines${topTypeStr ? ` — mostly ${topTypeStr}` : ''}.`;
+
+  const contributionDesc = metrics.reviewsGiven === 0
+    ? 'No reviews given in this window.'
+    : `Reviewed ${metrics.reviewsGiven} PRs with ${metrics.inlineReviewComments} inline comments${metrics.reviewsChangesRequested > 0 ? `, including ${metrics.reviewsChangesRequested} change request${metrics.reviewsChangesRequested > 1 ? 's' : ''}` : ''}.`;
+
+  const reliabilityDesc = metrics.codePRsTotal === 0
+    ? 'No code-bearing PRs in this window.'
+    : `${metrics.codePRsWithTests} of ${metrics.codePRsTotal} code PRs (${testRate}%) included test changes.`;
+
+  const qualityDesc = metrics.commentsAuthored === 0
+    ? 'No comments authored in this window.'
+    : `Authored ${metrics.commentsAuthored} comments averaging ${metrics.avgCommentLength} chars${metrics.commentsWithCodeBlocks > 0 ? `, ${metrics.commentsWithCodeBlocks} with code blocks` : ''}.`;
+
+  const breadthDesc = metrics.areasCount === 0
+    ? 'No distinct areas touched.'
+    : `Touched ${metrics.areasCount} area${metrics.areasCount > 1 ? 's' : ''}: ${metrics.areas.join(', ')}.`;
+
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 12 }}>
 
-      <DimCard dim="codeImpact" dims={dims}
-        description="Volume and type of code shipped. Larger, higher-value PRs (feat > fix > chore) score higher. Log-scaled so one massive PR doesn't dominate.">
+      <DimCard dim="codeImpact" dims={dims} description={codeImpactDesc}>
         <Stat label="PRs merged" value={String(metrics.prsMerged)} />
         <Stat label="Lines changed" value={metrics.linesChanged.toLocaleString()} />
         {topTypes && <Stat label="By type" value={topTypes} small />}
         <GhLink href={ghAuthoredPRs(login, sinceDate)} label="View merged PRs" />
       </DimCard>
 
-      <DimCard dim="contribution" dims={dims}
-        description="Review activity on others' PRs. Change requests score highest (blocking work to ensure quality), then substantive comments, then approvals.">
+      <DimCard dim="contribution" dims={dims} description={contributionDesc}>
         <Stat label="Reviews given" value={String(metrics.reviewsGiven)} />
         <Stat label="Inline comments" value={String(metrics.inlineReviewComments)} />
         <Stat label="Change requests" value={String(metrics.reviewsChangesRequested)} small />
         <GhLink href={ghReviewedPRs(login, sinceDate)} label="View reviews given" />
       </DimCard>
 
-      <DimCard dim="reliability" dims={dims}
-        description="Fraction of code-bearing PRs (feat/fix/perf/refactor) that also touched a test file. Proxy for whether shipped code comes with coverage.">
+      <DimCard dim="reliability" dims={dims} description={reliabilityDesc}>
         <Stat label="Code PRs with tests" value={`${metrics.codePRsWithTests} / ${metrics.codePRsTotal}`} />
         <Stat label="Test inclusion rate" value={metrics.codePRsTotal > 0 ? `${testRate}%` : '—'} />
         <GhLink href={ghCodePRs(login, sinceDate)} label="Browse feat/fix PRs" />
       </DimCard>
 
-      <DimCard dim="quality" dims={dims}
-        description="Heuristic on all comments authored. Longer, structured comments with code blocks score higher. Rewards engineers who explain their reasoning.">
+      <DimCard dim="quality" dims={dims} description={qualityDesc}>
         <Stat label="Comments authored" value={String(metrics.commentsAuthored)} />
         <Stat label="Avg length" value={`${metrics.avgCommentLength} chars`} />
         <Stat label="Had code blocks" value={String(metrics.commentsWithCodeBlocks)} small />
         <GhLink href={ghComments(login, sinceDate)} label="View comments" />
       </DimCard>
 
-      <DimCard dim="breadth" dims={dims}
-        description="Number of distinct product areas touched, entropy-weighted. Rewards engineers who spread contributions across the codebase rather than staying in one corner.">
+      <DimCard dim="breadth" dims={dims} description={breadthDesc}>
         <Stat label="Areas touched" value={String(metrics.areasCount)} />
         <div style={{ marginTop: 6, display: 'flex', flexWrap: 'wrap', gap: 4 }}>
           {metrics.areas.map(a => (
@@ -558,5 +634,20 @@ const styles = {
     justifyContent: 'center',
     height: '100vh',
     gap: 8,
+  },
+  scoreTooltip: {
+    position: 'absolute' as const,
+    top: '100%',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    marginTop: 8,
+    background: '#161616',
+    border: '1px solid #2a2a2a',
+    borderRadius: 8,
+    padding: '12px 14px',
+    minWidth: 230,
+    zIndex: 100,
+    boxShadow: '0 8px 24px rgba(0,0,0,0.6)',
+    pointerEvents: 'none' as const,
   },
 } as const;
