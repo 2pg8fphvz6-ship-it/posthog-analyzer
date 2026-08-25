@@ -1,0 +1,7 @@
+node_modules/
+dist/
+data/raw.json
+# data/scores.json is intentionally tracked — it's the dashboard's data source
+.env
+dashboard/node_modules/
+dashboard/dist/

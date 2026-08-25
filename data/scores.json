@@ -1,0 +1,3634 @@
+{
+  "generatedAt": "2026-08-25T02:34:44.559Z",
+  "fetchedAt": "2026-08-25T02:28:07.394Z",
+  "days": 14,
+  "prCount": 1847,
+  "engineerCount": 91,
+  "weights": {
+    "codeImpact": 0.3,
+    "contribution": 0.2,
+    "reliability": 0.2,
+    "quality": 0.15,
+    "breadth": 0.15
+  },
+  "engineers": [
+    {
+      "login": "TueHaulund",
+      "impact": 0.846,
+      "prCount": 37,
+      "dimensions": {
+        "codeImpact": 0.923,
+        "contribution": 0.978,
+        "reliability": 0.736,
+        "quality": 0.747,
+        "breadth": 0.758
+      },
+      "metrics": {
+        "prsMerged": 37,
+        "linesChanged": 22235,
+        "prsByType": {
+          "fix": 14,
+          "chore": 3,
+          "perf": 3,
+          "feat": 17
+        },
+        "reviewsGiven": 31,
+        "inlineReviewComments": 36,
+        "reviewsApproved": 20,
+        "reviewsChangesRequested": 1,
+        "reviewsCommented": 10,
+        "codePRsTotal": 34,
+        "codePRsWithTests": 32,
+        "commentsAuthored": 50,
+        "avgCommentLength": 402,
+        "commentsWithCodeBlocks": 2,
+        "areasCount": 8,
+        "areas": [
+          "Backend",
+          "CI/CD",
+          "Enterprise",
+          "Frontend",
+          "Scripts",
+          "nodejs",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "Gilbert09",
+      "impact": 0.831,
+      "prCount": 302,
+      "dimensions": {
+        "codeImpact": 1,
+        "contribution": 0.967,
+        "reliability": 0.593,
+        "quality": 1,
+        "breadth": 0.462
+      },
+      "metrics": {
+        "prsMerged": 302,
+        "linesChanged": 122536,
+        "prsByType": {
+          "fix": 195,
+          "feat": 101,
+          "chore": 4,
+          "docs": 1,
+          "refactor": 1
+        },
+        "reviewsGiven": 51,
+        "inlineReviewComments": 2,
+        "reviewsApproved": 51,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 297,
+        "codePRsWithTests": 267,
+        "commentsAuthored": 283,
+        "avgCommentLength": 1116,
+        "commentsWithCodeBlocks": 8,
+        "areasCount": 7,
+        "areas": [
+          ".agents",
+          ".test_quarantine.json",
+          "Backend",
+          "Frontend",
+          "nodejs",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "charlesvien",
+      "impact": 0.802,
+      "prCount": 32,
+      "dimensions": {
+        "codeImpact": 0.857,
+        "contribution": 0.758,
+        "reliability": 0.747,
+        "quality": 0.967,
+        "breadth": 0.659
+      },
+      "metrics": {
+        "prsMerged": 32,
+        "linesChanged": 37387,
+        "prsByType": {
+          "fix": 13,
+          "feat": 9,
+          "perf": 1,
+          "chore": 9
+        },
+        "reviewsGiven": 24,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 24,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 23,
+        "codePRsWithTests": 22,
+        "commentsAuthored": 125,
+        "avgCommentLength": 1421,
+        "commentsWithCodeBlocks": 6,
+        "areasCount": 10,
+        "areas": [
+          ".agents",
+          ".env.example",
+          "Backend",
+          "CI/CD",
+          "Enterprise",
+          "Frontend",
+          "README.md",
+          "docs",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "tatoalo",
+      "impact": 0.799,
+      "prCount": 72,
+      "dimensions": {
+        "codeImpact": 0.978,
+        "contribution": 0.989,
+        "reliability": 0.549,
+        "quality": 0.879,
+        "breadth": 0.44
+      },
+      "metrics": {
+        "prsMerged": 72,
+        "linesChanged": 13871,
+        "prsByType": {
+          "fix": 59,
+          "feat": 8,
+          "chore": 4,
+          "refactor": 1
+        },
+        "reviewsGiven": 75,
+        "inlineReviewComments": 9,
+        "reviewsApproved": 66,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 9,
+        "codePRsTotal": 68,
+        "codePRsWithTests": 60,
+        "commentsAuthored": 55,
+        "avgCommentLength": 435,
+        "commentsWithCodeBlocks": 4,
+        "areasCount": 10,
+        "areas": [
+          ".agents",
+          "Backend",
+          "CI/CD",
+          "Enterprise",
+          "Frontend",
+          "packages",
+          "products",
+          "pyproject.toml",
+          "services",
+          "uv.lock"
+        ]
+      }
+    },
+    {
+      "login": "mayteio",
+      "impact": 0.797,
+      "prCount": 32,
+      "dimensions": {
+        "codeImpact": 0.879,
+        "contribution": 0.934,
+        "reliability": 0.604,
+        "quality": 0.725,
+        "breadth": 0.78
+      },
+      "metrics": {
+        "prsMerged": 32,
+        "linesChanged": 13765,
+        "prsByType": {
+          "fix": 13,
+          "feat": 18,
+          "chore": 1
+        },
+        "reviewsGiven": 41,
+        "inlineReviewComments": 6,
+        "reviewsApproved": 35,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 6,
+        "codePRsTotal": 31,
+        "codePRsWithTests": 28,
+        "commentsAuthored": 100,
+        "avgCommentLength": 430,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 10,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "Rust",
+          "Scripts",
+          "docs",
+          "nodejs",
+          "pnpm-lock.yaml",
+          "products",
+          "services",
+          "tach.toml"
+        ]
+      }
+    },
+    {
+      "login": "puemos",
+      "impact": 0.79,
+      "prCount": 58,
+      "dimensions": {
+        "codeImpact": 0.989,
+        "contribution": 0.956,
+        "reliability": 0.538,
+        "quality": 0.78,
+        "breadth": 0.516
+      },
+      "metrics": {
+        "prsMerged": 58,
+        "linesChanged": 53715,
+        "prsByType": {
+          "fix": 30,
+          "feat": 27,
+          "chore": 1
+        },
+        "reviewsGiven": 47,
+        "inlineReviewComments": 2,
+        "reviewsApproved": 43,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 2,
+        "codePRsTotal": 57,
+        "codePRsWithTests": 50,
+        "commentsAuthored": 110,
+        "avgCommentLength": 486,
+        "commentsWithCodeBlocks": 2,
+        "areasCount": 6,
+        "areas": [
+          "Backend",
+          "Enterprise",
+          "Frontend",
+          "hogli.yaml",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "haacked",
+      "impact": 0.779,
+      "prCount": 15,
+      "dimensions": {
+        "codeImpact": 0.67,
+        "contribution": 0.846,
+        "reliability": 0.681,
+        "quality": 0.934,
+        "breadth": 0.879
+      },
+      "metrics": {
+        "prsMerged": 15,
+        "linesChanged": 10745,
+        "prsByType": {
+          "fix": 5,
+          "feat": 7,
+          "chore": 1,
+          "perf": 2
+        },
+        "reviewsGiven": 10,
+        "inlineReviewComments": 36,
+        "reviewsApproved": 8,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 2,
+        "codePRsTotal": 14,
+        "codePRsWithTests": 13,
+        "commentsAuthored": 81,
+        "avgCommentLength": 633,
+        "commentsWithCodeBlocks": 14,
+        "areasCount": 8,
+        "areas": [
+          "Backend",
+          "CI/CD",
+          "Frontend",
+          "Rust",
+          "docs",
+          "products",
+          "services",
+          "tach.toml"
+        ]
+      }
+    },
+    {
+      "login": "carlos-marchal-ph",
+      "impact": 0.775,
+      "prCount": 14,
+      "dimensions": {
+        "codeImpact": 0.604,
+        "contribution": 0.802,
+        "reliability": 0.791,
+        "quality": 0.923,
+        "breadth": 0.912
+      },
+      "metrics": {
+        "prsMerged": 14,
+        "linesChanged": 4504,
+        "prsByType": {
+          "fix": 13,
+          "feat": 1
+        },
+        "reviewsGiven": 13,
+        "inlineReviewComments": 25,
+        "reviewsApproved": 13,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 14,
+        "codePRsWithTests": 14,
+        "commentsAuthored": 29,
+        "avgCommentLength": 395,
+        "commentsWithCodeBlocks": 4,
+        "areasCount": 12,
+        "areas": [
+          "Backend",
+          "CI/CD",
+          "Enterprise",
+          "Frontend",
+          "Scripts",
+          "docker-compose.base.yml",
+          "docker-compose.dev.yml",
+          "docker-compose.hobby.yml",
+          "hogli.yaml",
+          "nodejs",
+          "packages",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "andrewm4894",
+      "impact": 0.769,
+      "prCount": 38,
+      "dimensions": {
+        "codeImpact": 0.912,
+        "contribution": 0.901,
+        "reliability": 0.495,
+        "quality": 0.813,
+        "breadth": 0.626
+      },
+      "metrics": {
+        "prsMerged": 38,
+        "linesChanged": 25186,
+        "prsByType": {
+          "feat": 15,
+          "fix": 19,
+          "chore": 4
+        },
+        "reviewsGiven": 38,
+        "inlineReviewComments": 2,
+        "reviewsApproved": 36,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 2,
+        "codePRsTotal": 34,
+        "codePRsWithTests": 29,
+        "commentsAuthored": 209,
+        "avgCommentLength": 590,
+        "commentsWithCodeBlocks": 2,
+        "areasCount": 8,
+        "areas": [
+          ".agents",
+          "AGENTS.md",
+          "Backend",
+          "CI/CD",
+          "Frontend",
+          "Rust",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "adboio",
+      "impact": 0.764,
+      "prCount": 52,
+      "dimensions": {
+        "codeImpact": 0.934,
+        "contribution": 0.824,
+        "reliability": 0.615,
+        "quality": 0.736,
+        "breadth": 0.571
+      },
+      "metrics": {
+        "prsMerged": 52,
+        "linesChanged": 21236,
+        "prsByType": {
+          "feat": 23,
+          "fix": 21,
+          "chore": 7,
+          "other": 1
+        },
+        "reviewsGiven": 31,
+        "inlineReviewComments": 7,
+        "reviewsApproved": 27,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 4,
+        "codePRsTotal": 44,
+        "codePRsWithTests": 40,
+        "commentsAuthored": 119,
+        "avgCommentLength": 379,
+        "commentsWithCodeBlocks": 1,
+        "areasCount": 8,
+        "areas": [
+          ".agents",
+          ".semgrep",
+          "AGENTS.md",
+          "Backend",
+          "Frontend",
+          "products",
+          "services",
+          "tach.toml"
+        ]
+      }
+    },
+    {
+      "login": "webjunkie",
+      "impact": 0.755,
+      "prCount": 47,
+      "dimensions": {
+        "codeImpact": 0.89,
+        "contribution": 0.868,
+        "reliability": 0.462,
+        "quality": 0.659,
+        "breadth": 0.824
+      },
+      "metrics": {
+        "prsMerged": 47,
+        "linesChanged": 78943,
+        "prsByType": {
+          "fix": 11,
+          "chore": 22,
+          "feat": 12,
+          "refactor": 2
+        },
+        "reviewsGiven": 33,
+        "inlineReviewComments": 5,
+        "reviewsApproved": 29,
+        "reviewsChangesRequested": 1,
+        "reviewsCommented": 3,
+        "codePRsTotal": 25,
+        "codePRsWithTests": 21,
+        "commentsAuthored": 171,
+        "avgCommentLength": 353,
+        "commentsWithCodeBlocks": 2,
+        "areasCount": 25,
+        "areas": [
+          ".agents",
+          ".claude",
+          ".cursor",
+          ".depot",
+          ".dockerignore",
+          ".husky",
+          ".semgrep",
+          ".stamphog",
+          ".test_durations",
+          "AGENTS.md",
+          "Backend",
+          "CI/CD",
+          "Dockerfile",
+          "Enterprise",
+          "Frontend",
+          "docs",
+          "hogli.yaml",
+          "owners.yaml",
+          "products",
+          "proto",
+          "pyproject.toml",
+          "pytest.ini",
+          "services",
+          "tools",
+          "uv.lock"
+        ]
+      }
+    },
+    {
+      "login": "danielcarletti",
+      "impact": 0.75,
+      "prCount": 23,
+      "dimensions": {
+        "codeImpact": 0.791,
+        "contribution": 1,
+        "reliability": 0.78,
+        "quality": 0.89,
+        "breadth": 0.154
+      },
+      "metrics": {
+        "prsMerged": 23,
+        "linesChanged": 49900,
+        "prsByType": {
+          "fix": 12,
+          "feat": 7,
+          "chore": 2,
+          "perf": 2
+        },
+        "reviewsGiven": 85,
+        "inlineReviewComments": 28,
+        "reviewsApproved": 81,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 4,
+        "codePRsTotal": 21,
+        "codePRsWithTests": 21,
+        "commentsAuthored": 76,
+        "avgCommentLength": 866,
+        "commentsWithCodeBlocks": 3,
+        "areasCount": 4,
+        "areas": [
+          ".agents",
+          "Backend",
+          "CI/CD",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "k11kirky",
+      "impact": 0.734,
+      "prCount": 49,
+      "dimensions": {
+        "codeImpact": 0.945,
+        "contribution": 0.857,
+        "reliability": 0.407,
+        "quality": 0.703,
+        "breadth": 0.615
+      },
+      "metrics": {
+        "prsMerged": 49,
+        "linesChanged": 30623,
+        "prsByType": {
+          "fix": 18,
+          "feat": 26,
+          "chore": 3,
+          "docs": 1,
+          "refactor": 1
+        },
+        "reviewsGiven": 27,
+        "inlineReviewComments": 10,
+        "reviewsApproved": 26,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 1,
+        "codePRsTotal": 45,
+        "codePRsWithTests": 37,
+        "commentsAuthored": 125,
+        "avgCommentLength": 514,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 9,
+        "areas": [
+          ".agents",
+          ".semgrep",
+          "Backend",
+          "Frontend",
+          "pnpm-lock.yaml",
+          "products",
+          "pyproject.toml",
+          "services",
+          "tach.toml"
+        ]
+      }
+    },
+    {
+      "login": "thmsobrmlr",
+      "impact": 0.72,
+      "prCount": 29,
+      "dimensions": {
+        "codeImpact": 0.802,
+        "contribution": 0.582,
+        "reliability": 0.637,
+        "quality": 0.824,
+        "breadth": 0.747
+      },
+      "metrics": {
+        "prsMerged": 29,
+        "linesChanged": 26557,
+        "prsByType": {
+          "chore": 6,
+          "fix": 16,
+          "feat": 7
+        },
+        "reviewsGiven": 12,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 12,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 23,
+        "codePRsWithTests": 21,
+        "commentsAuthored": 23,
+        "avgCommentLength": 709,
+        "commentsWithCodeBlocks": 1,
+        "areasCount": 10,
+        "areas": [
+          ".depot",
+          ".semgrep",
+          "Backend",
+          "CI/CD",
+          "Enterprise",
+          "Frontend",
+          "packages",
+          "products",
+          "pyproject.toml",
+          "tools"
+        ]
+      }
+    },
+    {
+      "login": "adamleithp",
+      "impact": 0.685,
+      "prCount": 44,
+      "dimensions": {
+        "codeImpact": 0.956,
+        "contribution": 0.879,
+        "reliability": 0.385,
+        "quality": 0.846,
+        "breadth": 0.121
+      },
+      "metrics": {
+        "prsMerged": 44,
+        "linesChanged": 40994,
+        "prsByType": {
+          "fix": 20,
+          "feat": 24
+        },
+        "reviewsGiven": 35,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 35,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 44,
+        "codePRsWithTests": 36,
+        "commentsAuthored": 67,
+        "avgCommentLength": 573,
+        "commentsWithCodeBlocks": 4,
+        "areasCount": 4,
+        "areas": [
+          "Frontend",
+          "packages",
+          "pnpm-lock.yaml",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "frankh",
+      "impact": 0.684,
+      "prCount": 24,
+      "dimensions": {
+        "codeImpact": 0.725,
+        "contribution": 0.505,
+        "reliability": 0.714,
+        "quality": 0.956,
+        "breadth": 0.527
+      },
+      "metrics": {
+        "prsMerged": 24,
+        "linesChanged": 6698,
+        "prsByType": {
+          "fix": 9,
+          "perf": 1,
+          "chore": 9,
+          "feat": 5
+        },
+        "reviewsGiven": 9,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 9,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 15,
+        "codePRsWithTests": 14,
+        "commentsAuthored": 29,
+        "avgCommentLength": 1132,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 5,
+        "areas": [
+          "Backend",
+          "CI/CD",
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "arnohillen",
+      "impact": 0.677,
+      "prCount": 26,
+      "dimensions": {
+        "codeImpact": 0.692,
+        "contribution": 0.912,
+        "reliability": 0.396,
+        "quality": 0.692,
+        "breadth": 0.692
+      },
+      "metrics": {
+        "prsMerged": 26,
+        "linesChanged": 7712,
+        "prsByType": {
+          "chore": 15,
+          "feat": 9,
+          "fix": 1,
+          "refactor": 1
+        },
+        "reviewsGiven": 40,
+        "inlineReviewComments": 7,
+        "reviewsApproved": 33,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 7,
+        "codePRsTotal": 11,
+        "codePRsWithTests": 9,
+        "commentsAuthored": 107,
+        "avgCommentLength": 299,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 8,
+        "areas": [
+          ".agents",
+          "AGENTS.md",
+          "Backend",
+          "CI/CD",
+          "Enterprise",
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "jose-sequeira",
+      "impact": 0.676,
+      "prCount": 19,
+      "dimensions": {
+        "codeImpact": 0.769,
+        "contribution": 0.637,
+        "reliability": 0.363,
+        "quality": 0.769,
+        "breadth": 0.868
+      },
+      "metrics": {
+        "prsMerged": 19,
+        "linesChanged": 12413,
+        "prsByType": {
+          "feat": 11,
+          "fix": 4,
+          "chore": 4
+        },
+        "reviewsGiven": 15,
+        "inlineReviewComments": 4,
+        "reviewsApproved": 14,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 1,
+        "codePRsTotal": 15,
+        "codePRsWithTests": 12,
+        "commentsAuthored": 19,
+        "avgCommentLength": 319,
+        "commentsWithCodeBlocks": 1,
+        "areasCount": 6,
+        "areas": [
+          ".semgrep",
+          "Backend",
+          "CI/CD",
+          "Rust",
+          "nodejs",
+          "proto"
+        ]
+      }
+    },
+    {
+      "login": "thiagosalvatore",
+      "impact": 0.673,
+      "prCount": 18,
+      "dimensions": {
+        "codeImpact": 0.615,
+        "contribution": 0.835,
+        "reliability": 0.352,
+        "quality": 0.857,
+        "breadth": 0.813
+      },
+      "metrics": {
+        "prsMerged": 18,
+        "linesChanged": 4813,
+        "prsByType": {
+          "fix": 10,
+          "feat": 5,
+          "chore": 3
+        },
+        "reviewsGiven": 13,
+        "inlineReviewComments": 19,
+        "reviewsApproved": 8,
+        "reviewsChangesRequested": 4,
+        "reviewsCommented": 1,
+        "codePRsTotal": 15,
+        "codePRsWithTests": 12,
+        "commentsAuthored": 49,
+        "avgCommentLength": 695,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 9,
+        "areas": [
+          ".depot",
+          ".gitignore",
+          ".oxfmtrc.json",
+          "Backend",
+          "CI/CD",
+          "Frontend",
+          "Rust",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "pauldambra",
+      "impact": 0.668,
+      "prCount": 46,
+      "dimensions": {
+        "codeImpact": 0.824,
+        "contribution": 0.275,
+        "reliability": 0.418,
+        "quality": 0.978,
+        "breadth": 0.901
+      },
+      "metrics": {
+        "prsMerged": 46,
+        "linesChanged": 16289,
+        "prsByType": {
+          "fix": 18,
+          "feat": 5,
+          "test": 2,
+          "chore": 21
+        },
+        "reviewsGiven": 3,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 3,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 23,
+        "codePRsWithTests": 19,
+        "commentsAuthored": 40,
+        "avgCommentLength": 718,
+        "commentsWithCodeBlocks": 1,
+        "areasCount": 13,
+        "areas": [
+          ".agents",
+          ".depot",
+          "Backend",
+          "CI/CD",
+          "E2E Tests",
+          "Enterprise",
+          "Frontend",
+          "Scripts",
+          "docker-compose.hobby.yml",
+          "docs",
+          "owners.yaml",
+          "products",
+          "tools"
+        ]
+      }
+    },
+    {
+      "login": "MattBro",
+      "impact": 0.663,
+      "prCount": 12,
+      "dimensions": {
+        "codeImpact": 0.538,
+        "contribution": 0.714,
+        "reliability": 0.648,
+        "quality": 0.637,
+        "breadth": 0.89
+      },
+      "metrics": {
+        "prsMerged": 12,
+        "linesChanged": 2839,
+        "prsByType": {
+          "fix": 10,
+          "refactor": 1,
+          "feat": 1
+        },
+        "reviewsGiven": 20,
+        "inlineReviewComments": 12,
+        "reviewsApproved": 13,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 7,
+        "codePRsTotal": 12,
+        "codePRsWithTests": 11,
+        "commentsAuthored": 39,
+        "avgCommentLength": 587,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 6,
+        "areas": [
+          "Backend",
+          "CI/CD",
+          "Enterprise",
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "jonmcwest",
+      "impact": 0.66,
+      "prCount": 22,
+      "dimensions": {
+        "codeImpact": 0.78,
+        "contribution": 0.407,
+        "reliability": 0.473,
+        "quality": 0.989,
+        "breadth": 0.681
+      },
+      "metrics": {
+        "prsMerged": 22,
+        "linesChanged": 5928,
+        "prsByType": {
+          "chore": 3,
+          "feat": 12,
+          "fix": 7
+        },
+        "reviewsGiven": 6,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 6,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 19,
+        "codePRsWithTests": 16,
+        "commentsAuthored": 61,
+        "avgCommentLength": 1057,
+        "commentsWithCodeBlocks": 5,
+        "areasCount": 8,
+        "areas": [
+          ".depot",
+          ".gitignore",
+          "Backend",
+          "CI/CD",
+          "Frontend",
+          "nodejs",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "arthurdedeus",
+      "impact": 0.654,
+      "prCount": 41,
+      "dimensions": {
+        "codeImpact": 0.967,
+        "contribution": 0.165,
+        "reliability": 0.758,
+        "quality": 0.462,
+        "breadth": 0.736
+      },
+      "metrics": {
+        "prsMerged": 41,
+        "linesChanged": 55700,
+        "prsByType": {
+          "feat": 30,
+          "fix": 11
+        },
+        "reviewsGiven": 2,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 2,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 41,
+        "codePRsWithTests": 40,
+        "commentsAuthored": 93,
+        "avgCommentLength": 234,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 9,
+        "areas": [
+          ".semgrep",
+          ".test_quarantine.json",
+          "Backend",
+          "CI/CD",
+          "Enterprise",
+          "Frontend",
+          "nodejs",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "skoob13",
+      "impact": 0.653,
+      "prCount": 17,
+      "dimensions": {
+        "codeImpact": 0.648,
+        "contribution": 0.769,
+        "reliability": 0.692,
+        "quality": 0.56,
+        "breadth": 0.549
+      },
+      "metrics": {
+        "prsMerged": 17,
+        "linesChanged": 5610,
+        "prsByType": {
+          "fix": 9,
+          "chore": 1,
+          "feat": 5,
+          "other": 2
+        },
+        "reviewsGiven": 25,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 25,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 14,
+        "codePRsWithTests": 13,
+        "commentsAuthored": 16,
+        "avgCommentLength": 953,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 5,
+        "areas": [
+          ".agents",
+          "Backend",
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "vdekrijger",
+      "impact": 0.649,
+      "prCount": 7,
+      "dimensions": {
+        "codeImpact": 0.275,
+        "contribution": 0.78,
+        "reliability": 0.824,
+        "quality": 0.681,
+        "breadth": 0.956
+      },
+      "metrics": {
+        "prsMerged": 7,
+        "linesChanged": 2359,
+        "prsByType": {
+          "chore": 1,
+          "fix": 5,
+          "feat": 1
+        },
+        "reviewsGiven": 14,
+        "inlineReviewComments": 21,
+        "reviewsApproved": 13,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 1,
+        "codePRsTotal": 6,
+        "codePRsWithTests": 6,
+        "commentsAuthored": 79,
+        "avgCommentLength": 350,
+        "commentsWithCodeBlocks": 1,
+        "areasCount": 6,
+        "areas": [
+          "AGENTS.md",
+          "Backend",
+          "Enterprise",
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "hpouillot",
+      "impact": 0.647,
+      "prCount": 31,
+      "dimensions": {
+        "codeImpact": 0.846,
+        "contribution": 0.747,
+        "reliability": 0.286,
+        "quality": 0.451,
+        "breadth": 0.791
+      },
+      "metrics": {
+        "prsMerged": 31,
+        "linesChanged": 26726,
+        "prsByType": {
+          "feat": 15,
+          "fix": 15,
+          "chore": 1
+        },
+        "reviewsGiven": 18,
+        "inlineReviewComments": 5,
+        "reviewsApproved": 16,
+        "reviewsChangesRequested": 1,
+        "reviewsCommented": 1,
+        "codePRsTotal": 30,
+        "codePRsWithTests": 23,
+        "commentsAuthored": 31,
+        "avgCommentLength": 224,
+        "commentsWithCodeBlocks": 1,
+        "areasCount": 12,
+        "areas": [
+          ".agents",
+          ".semgrep",
+          "Backend",
+          "CI/CD",
+          "Dockerfile",
+          "Frontend",
+          "Rust",
+          "cli",
+          "common",
+          "packages",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "rafaeelaudibert",
+      "impact": 0.626,
+      "prCount": 15,
+      "dimensions": {
+        "codeImpact": 0.637,
+        "contribution": 0.659,
+        "reliability": 0.484,
+        "quality": 0.538,
+        "breadth": 0.835
+      },
+      "metrics": {
+        "prsMerged": 15,
+        "linesChanged": 5159,
+        "prsByType": {
+          "fix": 6,
+          "feat": 7,
+          "chore": 2
+        },
+        "reviewsGiven": 12,
+        "inlineReviewComments": 6,
+        "reviewsApproved": 11,
+        "reviewsChangesRequested": 1,
+        "reviewsCommented": 0,
+        "codePRsTotal": 13,
+        "codePRsWithTests": 11,
+        "commentsAuthored": 18,
+        "avgCommentLength": 258,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 8,
+        "areas": [
+          ".agents",
+          "Backend",
+          "Enterprise",
+          "Frontend",
+          "pnpm-lock.yaml",
+          "pnpm-workspace.yaml",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "sampennington",
+      "impact": 0.624,
+      "prCount": 37,
+      "dimensions": {
+        "codeImpact": 0.868,
+        "contribution": 0.571,
+        "reliability": 0.132,
+        "quality": 0.758,
+        "breadth": 0.725
+      },
+      "metrics": {
+        "prsMerged": 37,
+        "linesChanged": 10468,
+        "prsByType": {
+          "fix": 10,
+          "chore": 7,
+          "feat": 20
+        },
+        "reviewsGiven": 9,
+        "inlineReviewComments": 4,
+        "reviewsApproved": 7,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 2,
+        "codePRsTotal": 30,
+        "codePRsWithTests": 20,
+        "commentsAuthored": 148,
+        "avgCommentLength": 591,
+        "commentsWithCodeBlocks": 6,
+        "areasCount": 9,
+        "areas": [
+          ".agents",
+          ".claude",
+          "Backend",
+          "Enterprise",
+          "Frontend",
+          "packages",
+          "pnpm-lock.yaml",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "dmarticus",
+      "impact": 0.613,
+      "prCount": 23,
+      "dimensions": {
+        "codeImpact": 0.813,
+        "contribution": 0.736,
+        "reliability": 0.22,
+        "quality": 0.626,
+        "breadth": 0.56
+      },
+      "metrics": {
+        "prsMerged": 23,
+        "linesChanged": 38368,
+        "prsByType": {
+          "feat": 12,
+          "other": 2,
+          "chore": 2,
+          "fix": 7
+        },
+        "reviewsGiven": 21,
+        "inlineReviewComments": 1,
+        "reviewsApproved": 21,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 19,
+        "codePRsWithTests": 14,
+        "commentsAuthored": 37,
+        "avgCommentLength": 303,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 6,
+        "areas": [
+          ".env.example",
+          ".semgrep",
+          "Backend",
+          "products",
+          "services",
+          "tach.toml"
+        ]
+      }
+    },
+    {
+      "login": "ablaszkiewicz",
+      "impact": 0.611,
+      "prCount": 21,
+      "dimensions": {
+        "codeImpact": 0.747,
+        "contribution": 0.923,
+        "reliability": 0.055,
+        "quality": 0.418,
+        "breadth": 0.857
+      },
+      "metrics": {
+        "prsMerged": 21,
+        "linesChanged": 3791,
+        "prsByType": {
+          "feat": 10,
+          "fix": 8,
+          "chore": 3
+        },
+        "reviewsGiven": 34,
+        "inlineReviewComments": 14,
+        "reviewsApproved": 30,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 4,
+        "codePRsTotal": 18,
+        "codePRsWithTests": 6,
+        "commentsAuthored": 52,
+        "avgCommentLength": 208,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 9,
+        "areas": [
+          "Backend",
+          "CI/CD",
+          "Dockerfile",
+          "Frontend",
+          "Rust",
+          "Scripts",
+          "cli",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "eli-r-ph",
+      "impact": 0.607,
+      "prCount": 9,
+      "dimensions": {
+        "codeImpact": 0.429,
+        "contribution": 0.692,
+        "reliability": 0.802,
+        "quality": 0.615,
+        "breadth": 0.582
+      },
+      "metrics": {
+        "prsMerged": 9,
+        "linesChanged": 5470,
+        "prsByType": {
+          "fix": 7,
+          "feat": 1,
+          "chore": 1
+        },
+        "reviewsGiven": 21,
+        "inlineReviewComments": 11,
+        "reviewsApproved": 11,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 10,
+        "codePRsTotal": 8,
+        "codePRsWithTests": 8,
+        "commentsAuthored": 21,
+        "avgCommentLength": 286,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 5,
+        "areas": [
+          ".agents",
+          ".claude",
+          "Backend",
+          "Rust",
+          "nodejs"
+        ]
+      }
+    },
+    {
+      "login": "dmarchuk",
+      "impact": 0.602,
+      "prCount": 24,
+      "dimensions": {
+        "codeImpact": 0.703,
+        "contribution": 0.813,
+        "reliability": 0.176,
+        "quality": 0.44,
+        "breadth": 0.846
+      },
+      "metrics": {
+        "prsMerged": 24,
+        "linesChanged": 10156,
+        "prsByType": {
+          "chore": 4,
+          "fix": 14,
+          "feat": 4,
+          "docs": 1,
+          "perf": 1
+        },
+        "reviewsGiven": 24,
+        "inlineReviewComments": 5,
+        "reviewsApproved": 23,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 1,
+        "codePRsTotal": 19,
+        "codePRsWithTests": 13,
+        "commentsAuthored": 17,
+        "avgCommentLength": 243,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 17,
+        "areas": [
+          ".dockerignore",
+          "Backend",
+          "CI/CD",
+          "Dockerfile.node",
+          "Dockerfile.recording-rasterizer",
+          "Frontend",
+          "Rust",
+          "Scripts",
+          "docker-compose.base.yml",
+          "docker-compose.dev-full.yml",
+          "docker-compose.hobby.yml",
+          "docs",
+          "nodejs",
+          "pnpm-lock.yaml",
+          "pnpm-workspace.yaml",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "robbie-c",
+      "impact": 0.588,
+      "prCount": 20,
+      "dimensions": {
+        "codeImpact": 0.736,
+        "contribution": 0.264,
+        "reliability": 0.659,
+        "quality": 0.549,
+        "breadth": 0.67
+      },
+      "metrics": {
+        "prsMerged": 20,
+        "linesChanged": 24649,
+        "prsByType": {
+          "feat": 9,
+          "fix": 4,
+          "chore": 7
+        },
+        "reviewsGiven": 3,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 3,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 13,
+        "codePRsWithTests": 12,
+        "commentsAuthored": 2,
+        "avgCommentLength": 820,
+        "commentsWithCodeBlocks": 1,
+        "areasCount": 7,
+        "areas": [
+          ".codex",
+          "Backend",
+          "CI/CD",
+          "Rust",
+          "docs",
+          "nodejs",
+          "pnpm-lock.yaml"
+        ]
+      }
+    },
+    {
+      "login": "orian",
+      "impact": 0.584,
+      "prCount": 9,
+      "dimensions": {
+        "codeImpact": 0.143,
+        "contribution": 0.593,
+        "reliability": 0.857,
+        "quality": 0.901,
+        "breadth": 0.769
+      },
+      "metrics": {
+        "prsMerged": 9,
+        "linesChanged": 50573,
+        "prsByType": {
+          "chore": 7,
+          "feat": 1,
+          "ci": 1
+        },
+        "reviewsGiven": 12,
+        "inlineReviewComments": 7,
+        "reviewsApproved": 9,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 3,
+        "codePRsTotal": 1,
+        "codePRsWithTests": 1,
+        "commentsAuthored": 15,
+        "avgCommentLength": 1066,
+        "commentsWithCodeBlocks": 2,
+        "areasCount": 8,
+        "areas": [
+          ".agents",
+          ".semgrep",
+          "Backend",
+          "CI/CD",
+          "Infrastructure",
+          "docker-compose.multinode-clickhouse.yml",
+          "docs",
+          "tools"
+        ]
+      }
+    },
+    {
+      "login": "MattPua",
+      "impact": 0.577,
+      "prCount": 43,
+      "dimensions": {
+        "codeImpact": 0.901,
+        "contribution": 0.495,
+        "reliability": 0.297,
+        "quality": 0.286,
+        "breadth": 0.703
+      },
+      "metrics": {
+        "prsMerged": 43,
+        "linesChanged": 14709,
+        "prsByType": {
+          "fix": 18,
+          "chore": 6,
+          "feat": 17,
+          "docs": 2
+        },
+        "reviewsGiven": 6,
+        "inlineReviewComments": 5,
+        "reviewsApproved": 6,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 35,
+        "codePRsWithTests": 27,
+        "commentsAuthored": 14,
+        "avgCommentLength": 190,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 10,
+        "areas": [
+          ".agents",
+          "Backend",
+          "Frontend",
+          "package.json",
+          "pnpm-lock.yaml",
+          "pnpm-workspace.yaml",
+          "products",
+          "services",
+          "tach.toml",
+          "tools"
+        ]
+      }
+    },
+    {
+      "login": "jabahamondes",
+      "impact": 0.565,
+      "prCount": 19,
+      "dimensions": {
+        "codeImpact": 0.714,
+        "contribution": 0.363,
+        "reliability": 0.56,
+        "quality": 0.912,
+        "breadth": 0.198
+      },
+      "metrics": {
+        "prsMerged": 19,
+        "linesChanged": 10573,
+        "prsByType": {
+          "chore": 2,
+          "fix": 12,
+          "feat": 4,
+          "refactor": 1
+        },
+        "reviewsGiven": 5,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 5,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 17,
+        "codePRsWithTests": 15,
+        "commentsAuthored": 71,
+        "avgCommentLength": 663,
+        "commentsWithCodeBlocks": 5,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "jonathanlab",
+      "impact": 0.564,
+      "prCount": 7,
+      "dimensions": {
+        "codeImpact": 0.451,
+        "contribution": 0.626,
+        "reliability": 0.835,
+        "quality": 0.516,
+        "breadth": 0.396
+      },
+      "metrics": {
+        "prsMerged": 7,
+        "linesChanged": 6881,
+        "prsByType": {
+          "feat": 4,
+          "fix": 3
+        },
+        "reviewsGiven": 16,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 16,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 7,
+        "codePRsWithTests": 7,
+        "commentsAuthored": 15,
+        "avgCommentLength": 300,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "Enterprise",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "meikelmosby",
+      "impact": 0.558,
+      "prCount": 15,
+      "dimensions": {
+        "codeImpact": 0.56,
+        "contribution": 0.67,
+        "reliability": 0.33,
+        "quality": 0.319,
+        "breadth": 0.945
+      },
+      "metrics": {
+        "prsMerged": 15,
+        "linesChanged": 3364,
+        "prsByType": {
+          "fix": 3,
+          "chore": 5,
+          "feat": 7
+        },
+        "reviewsGiven": 16,
+        "inlineReviewComments": 3,
+        "reviewsApproved": 16,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 10,
+        "codePRsWithTests": 8,
+        "commentsAuthored": 6,
+        "avgCommentLength": 406,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 7,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "Rust",
+          "nodejs",
+          "products",
+          "services",
+          "tach.toml"
+        ]
+      }
+    },
+    {
+      "login": "sakce",
+      "impact": 0.557,
+      "prCount": 15,
+      "dimensions": {
+        "codeImpact": 0.626,
+        "contribution": 0.418,
+        "reliability": 0.703,
+        "quality": 0.67,
+        "breadth": 0.297
+      },
+      "metrics": {
+        "prsMerged": 15,
+        "linesChanged": 5520,
+        "prsByType": {
+          "fix": 9,
+          "feat": 4,
+          "refactor": 1,
+          "chore": 1
+        },
+        "reviewsGiven": 6,
+        "inlineReviewComments": 1,
+        "reviewsApproved": 6,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 14,
+        "codePRsWithTests": 13,
+        "commentsAuthored": 48,
+        "avgCommentLength": 317,
+        "commentsWithCodeBlocks": 1,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "mariusandra",
+      "impact": 0.541,
+      "prCount": 6,
+      "dimensions": {
+        "codeImpact": 0.418,
+        "contribution": 0.549,
+        "reliability": 1,
+        "quality": 0.055,
+        "breadth": 0.648
+      },
+      "metrics": {
+        "prsMerged": 6,
+        "linesChanged": 9406,
+        "prsByType": {
+          "feat": 5,
+          "fix": 1
+        },
+        "reviewsGiven": 11,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 11,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 6,
+        "codePRsWithTests": 6,
+        "commentsAuthored": 1,
+        "avgCommentLength": 49,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 5,
+        "areas": [
+          "Backend",
+          "Enterprise",
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "ksvat",
+      "impact": 0.535,
+      "prCount": 10,
+      "dimensions": {
+        "codeImpact": 0.473,
+        "contribution": 0.56,
+        "reliability": 0.571,
+        "quality": 0.791,
+        "breadth": 0.319
+      },
+      "metrics": {
+        "prsMerged": 10,
+        "linesChanged": 1955,
+        "prsByType": {
+          "feat": 6,
+          "fix": 3,
+          "chore": 1
+        },
+        "reviewsGiven": 11,
+        "inlineReviewComments": 7,
+        "reviewsApproved": 7,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 4,
+        "codePRsTotal": 9,
+        "codePRsWithTests": 8,
+        "commentsAuthored": 21,
+        "avgCommentLength": 348,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "brandonleung",
+      "impact": 0.531,
+      "prCount": 6,
+      "dimensions": {
+        "codeImpact": 0.253,
+        "contribution": 0.538,
+        "reliability": 0.945,
+        "quality": 0.088,
+        "breadth": 0.967
+      },
+      "metrics": {
+        "prsMerged": 6,
+        "linesChanged": 1769,
+        "prsByType": {
+          "feat": 3,
+          "fix": 2,
+          "chore": 1
+        },
+        "reviewsGiven": 7,
+        "inlineReviewComments": 2,
+        "reviewsApproved": 6,
+        "reviewsChangesRequested": 1,
+        "reviewsCommented": 0,
+        "codePRsTotal": 5,
+        "codePRsWithTests": 5,
+        "commentsAuthored": 9,
+        "avgCommentLength": 78,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 6,
+        "areas": [
+          ".agents",
+          "AGENTS.md",
+          "Backend",
+          "nodejs",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "DanielVisca",
+      "impact": 0.526,
+      "prCount": 4,
+      "dimensions": {
+        "codeImpact": 0.308,
+        "contribution": 0.121,
+        "reliability": 0.868,
+        "quality": 0.571,
+        "breadth": 1
+      },
+      "metrics": {
+        "prsMerged": 4,
+        "linesChanged": 7328,
+        "prsByType": {
+          "feat": 4
+        },
+        "reviewsGiven": 1,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 1,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 4,
+        "codePRsWithTests": 4,
+        "commentsAuthored": 15,
+        "avgCommentLength": 767,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 6,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "Rust",
+          "products",
+          "proto",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "Piccirello",
+      "impact": 0.515,
+      "prCount": 8,
+      "dimensions": {
+        "codeImpact": 0.374,
+        "contribution": 0.286,
+        "reliability": 0.978,
+        "quality": 0.648,
+        "breadth": 0.352
+      },
+      "metrics": {
+        "prsMerged": 8,
+        "linesChanged": 2725,
+        "prsByType": {
+          "fix": 6,
+          "chore": 1,
+          "feat": 1
+        },
+        "reviewsGiven": 3,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 3,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 7,
+        "codePRsWithTests": 7,
+        "commentsAuthored": 31,
+        "avgCommentLength": 623,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "rnegron",
+      "impact": 0.513,
+      "prCount": 19,
+      "dimensions": {
+        "codeImpact": 0.495,
+        "contribution": 0.89,
+        "reliability": 0.066,
+        "quality": 0.352,
+        "breadth": 0.802
+      },
+      "metrics": {
+        "prsMerged": 19,
+        "linesChanged": 55694,
+        "prsByType": {
+          "perf": 1,
+          "chore": 11,
+          "feat": 2,
+          "fix": 5
+        },
+        "reviewsGiven": 32,
+        "inlineReviewComments": 5,
+        "reviewsApproved": 32,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 8,
+        "codePRsWithTests": 3,
+        "commentsAuthored": 14,
+        "avgCommentLength": 206,
+        "commentsWithCodeBlocks": 1,
+        "areasCount": 17,
+        "areas": [
+          ".agents",
+          ".depot",
+          ".oxlintrc.json",
+          "CI/CD",
+          "Rust",
+          "Scripts",
+          "devenv",
+          "docker-compose.base.yml",
+          "docker-compose.dev-full.yml",
+          "docker-compose.dev.yml",
+          "docker-compose.profiles.yml",
+          "docker-compose.sandbox.yml",
+          "nodejs",
+          "owners.yaml",
+          "products",
+          "services",
+          "tools"
+        ]
+      }
+    },
+    {
+      "login": "kyleswank",
+      "impact": 0.512,
+      "prCount": 5,
+      "dimensions": {
+        "codeImpact": 0.231,
+        "contribution": 0.055,
+        "reliability": 0.879,
+        "quality": 0.714,
+        "breadth": 0.989
+      },
+      "metrics": {
+        "prsMerged": 5,
+        "linesChanged": 2489,
+        "prsByType": {
+          "fix": 4,
+          "feat": 1
+        },
+        "reviewsGiven": 0,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 0,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 5,
+        "codePRsWithTests": 5,
+        "commentsAuthored": 1,
+        "avgCommentLength": 1302,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 7,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "Rust",
+          "common",
+          "nodejs",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "sinan-ku",
+      "impact": 0.494,
+      "prCount": 10,
+      "dimensions": {
+        "codeImpact": 0.44,
+        "contribution": 0.473,
+        "reliability": 0.374,
+        "quality": 0.945,
+        "breadth": 0.341
+      },
+      "metrics": {
+        "prsMerged": 10,
+        "linesChanged": 2459,
+        "prsByType": {
+          "fix": 5,
+          "feat": 5
+        },
+        "reviewsGiven": 6,
+        "inlineReviewComments": 2,
+        "reviewsApproved": 5,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 1,
+        "codePRsTotal": 10,
+        "codePRsWithTests": 8,
+        "commentsAuthored": 21,
+        "avgCommentLength": 991,
+        "commentsWithCodeBlocks": 2,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "CI/CD",
+          "Frontend",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "VojtechBartos",
+      "impact": 0.492,
+      "prCount": 18,
+      "dimensions": {
+        "codeImpact": 0.758,
+        "contribution": 0.44,
+        "reliability": 0.725,
+        "quality": 0.132,
+        "breadth": 0.077
+      },
+      "metrics": {
+        "prsMerged": 18,
+        "linesChanged": 7675,
+        "prsByType": {
+          "fix": 8,
+          "feat": 8,
+          "chore": 2
+        },
+        "reviewsGiven": 8,
+        "inlineReviewComments": 1,
+        "reviewsApproved": 7,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 1,
+        "codePRsTotal": 16,
+        "codePRsWithTests": 15,
+        "commentsAuthored": 9,
+        "avgCommentLength": 134,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 2,
+        "areas": [
+          "Backend",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "bill-ph",
+      "impact": 0.49,
+      "prCount": 4,
+      "dimensions": {
+        "codeImpact": 0.198,
+        "contribution": 0.429,
+        "reliability": 0.967,
+        "quality": 0.374,
+        "breadth": 0.637
+      },
+      "metrics": {
+        "prsMerged": 4,
+        "linesChanged": 4578,
+        "prsByType": {
+          "perf": 2,
+          "feat": 2
+        },
+        "reviewsGiven": 6,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 5,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 1,
+        "codePRsTotal": 4,
+        "codePRsWithTests": 4,
+        "commentsAuthored": 8,
+        "avgCommentLength": 308,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 5,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "docs",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "mp-hog",
+      "impact": 0.488,
+      "prCount": 11,
+      "dimensions": {
+        "codeImpact": 0.582,
+        "contribution": 0.209,
+        "reliability": 0.626,
+        "quality": 0.473,
+        "breadth": 0.505
+      },
+      "metrics": {
+        "prsMerged": 11,
+        "linesChanged": 12065,
+        "prsByType": {
+          "fix": 6,
+          "feat": 5
+        },
+        "reviewsGiven": 2,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 2,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 11,
+        "codePRsWithTests": 10,
+        "commentsAuthored": 12,
+        "avgCommentLength": 588,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "estefaniarabadan",
+      "impact": 0.465,
+      "prCount": 19,
+      "dimensions": {
+        "codeImpact": 0.681,
+        "contribution": 0.604,
+        "reliability": 0.582,
+        "quality": 0.099,
+        "breadth": 0.055
+      },
+      "metrics": {
+        "prsMerged": 19,
+        "linesChanged": 5302,
+        "prsByType": {
+          "feat": 4,
+          "fix": 14,
+          "chore": 1
+        },
+        "reviewsGiven": 14,
+        "inlineReviewComments": 1,
+        "reviewsApproved": 13,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 1,
+        "codePRsTotal": 18,
+        "codePRsWithTests": 16,
+        "commentsAuthored": 2,
+        "avgCommentLength": 152,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 3,
+        "areas": [
+          "Backend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "sortafreel",
+      "impact": 0.453,
+      "prCount": 10,
+      "dimensions": {
+        "codeImpact": 0.505,
+        "contribution": 0.451,
+        "reliability": 0.527,
+        "quality": 0.593,
+        "breadth": 0.11
+      },
+      "metrics": {
+        "prsMerged": 10,
+        "linesChanged": 4126,
+        "prsByType": {
+          "chore": 2,
+          "feat": 6,
+          "fix": 2
+        },
+        "reviewsGiven": 8,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 8,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 8,
+        "codePRsWithTests": 7,
+        "commentsAuthored": 8,
+        "avgCommentLength": 766,
+        "commentsWithCodeBlocks": 2,
+        "areasCount": 3,
+        "areas": [
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "gantoine",
+      "impact": 0.452,
+      "prCount": 12,
+      "dimensions": {
+        "codeImpact": 0.154,
+        "contribution": 0.945,
+        "reliability": 0.044,
+        "quality": 0.407,
+        "breadth": 0.978
+      },
+      "metrics": {
+        "prsMerged": 12,
+        "linesChanged": 944,
+        "prsByType": {
+          "chore": 9,
+          "fix": 3
+        },
+        "reviewsGiven": 41,
+        "inlineReviewComments": 5,
+        "reviewsApproved": 38,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 3,
+        "codePRsTotal": 3,
+        "codePRsWithTests": 1,
+        "commentsAuthored": 10,
+        "avgCommentLength": 252,
+        "commentsWithCodeBlocks": 2,
+        "areasCount": 10,
+        "areas": [
+          ".agents",
+          ".depot",
+          ".flox",
+          ".husky",
+          ".mcp.json",
+          ".trunk",
+          "AGENTS.md",
+          "CI/CD",
+          "Rust",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "jurajmajerik",
+      "impact": 0.451,
+      "prCount": 38,
+      "dimensions": {
+        "codeImpact": 0.835,
+        "contribution": 0.319,
+        "reliability": 0.187,
+        "quality": 0.165,
+        "breadth": 0.495
+      },
+      "metrics": {
+        "prsMerged": 38,
+        "linesChanged": 18564,
+        "prsByType": {
+          "feat": 10,
+          "fix": 26,
+          "chore": 2
+        },
+        "reviewsGiven": 4,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 4,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 36,
+        "codePRsWithTests": 25,
+        "commentsAuthored": 6,
+        "avgCommentLength": 187,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 5,
+        "areas": [
+          ".agents",
+          "Backend",
+          "Enterprise",
+          "Frontend",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "EDsCODE",
+      "impact": 0.442,
+      "prCount": 13,
+      "dimensions": {
+        "codeImpact": 0.549,
+        "contribution": 0.198,
+        "reliability": 0.67,
+        "quality": 0.22,
+        "breadth": 0.473
+      },
+      "metrics": {
+        "prsMerged": 13,
+        "linesChanged": 4621,
+        "prsByType": {
+          "fix": 11,
+          "feat": 2
+        },
+        "reviewsGiven": 2,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 2,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 13,
+        "codePRsWithTests": 12,
+        "commentsAuthored": 3,
+        "avgCommentLength": 207,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 5,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "docs",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "pl",
+      "impact": 0.437,
+      "prCount": 11,
+      "dimensions": {
+        "codeImpact": 0.571,
+        "contribution": 0.615,
+        "reliability": 0.341,
+        "quality": 0.231,
+        "breadth": 0.264
+      },
+      "metrics": {
+        "prsMerged": 11,
+        "linesChanged": 3649,
+        "prsByType": {
+          "chore": 1,
+          "fix": 2,
+          "feat": 6,
+          "perf": 1,
+          "refactor": 1
+        },
+        "reviewsGiven": 7,
+        "inlineReviewComments": 8,
+        "reviewsApproved": 6,
+        "reviewsChangesRequested": 1,
+        "reviewsCommented": 0,
+        "codePRsTotal": 10,
+        "codePRsWithTests": 8,
+        "commentsAuthored": 13,
+        "avgCommentLength": 178,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          ".semgrep",
+          "CI/CD",
+          "Rust",
+          "nodejs"
+        ]
+      }
+    },
+    {
+      "login": "benben",
+      "impact": 0.43,
+      "prCount": 12,
+      "dimensions": {
+        "codeImpact": 0.593,
+        "contribution": 0.044,
+        "reliability": 0.846,
+        "quality": 0.209,
+        "breadth": 0.286
+      },
+      "metrics": {
+        "prsMerged": 12,
+        "linesChanged": 5052,
+        "prsByType": {
+          "fix": 6,
+          "feat": 5,
+          "chore": 1
+        },
+        "reviewsGiven": 0,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 0,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 11,
+        "codePRsWithTests": 11,
+        "commentsAuthored": 8,
+        "avgCommentLength": 199,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "docs",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "benjackwhite",
+      "impact": 0.428,
+      "prCount": 7,
+      "dimensions": {
+        "codeImpact": 0.352,
+        "contribution": 0.352,
+        "reliability": 0.198,
+        "quality": 0.495,
+        "breadth": 0.923
+      },
+      "metrics": {
+        "prsMerged": 7,
+        "linesChanged": 2530,
+        "prsByType": {
+          "feat": 2,
+          "fix": 4,
+          "perf": 1
+        },
+        "reviewsGiven": 3,
+        "inlineReviewComments": 2,
+        "reviewsApproved": 3,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 7,
+        "codePRsWithTests": 5,
+        "commentsAuthored": 4,
+        "avgCommentLength": 447,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 7,
+        "areas": [
+          "Backend",
+          "Enterprise",
+          "Frontend",
+          "docker-compose.dev.yml",
+          "docs",
+          "nodejs",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "Radu-Raicea",
+      "impact": 0.424,
+      "prCount": 17,
+      "dimensions": {
+        "codeImpact": 0.659,
+        "contribution": 0.462,
+        "reliability": 0.275,
+        "quality": 0.143,
+        "breadth": 0.385
+      },
+      "metrics": {
+        "prsMerged": 17,
+        "linesChanged": 4271,
+        "prsByType": {
+          "feat": 9,
+          "fix": 8
+        },
+        "reviewsGiven": 5,
+        "inlineReviewComments": 2,
+        "reviewsApproved": 4,
+        "reviewsChangesRequested": 1,
+        "reviewsCommented": 0,
+        "codePRsTotal": 17,
+        "codePRsWithTests": 13,
+        "commentsAuthored": 6,
+        "avgCommentLength": 170,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "andyzzhao",
+      "impact": 0.423,
+      "prCount": 5,
+      "dimensions": {
+        "codeImpact": 0.297,
+        "contribution": 0.374,
+        "reliability": 0.769,
+        "quality": 0.253,
+        "breadth": 0.451
+      },
+      "metrics": {
+        "prsMerged": 5,
+        "linesChanged": 23290,
+        "prsByType": {
+          "fix": 1,
+          "feat": 4
+        },
+        "reviewsGiven": 6,
+        "inlineReviewComments": 2,
+        "reviewsApproved": 4,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 2,
+        "codePRsTotal": 5,
+        "codePRsWithTests": 5,
+        "commentsAuthored": 3,
+        "avgCommentLength": 439,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "Enterprise",
+          "Frontend",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "yasen-posthog",
+      "impact": 0.42,
+      "prCount": 8,
+      "dimensions": {
+        "codeImpact": 0.33,
+        "contribution": 0.187,
+        "reliability": 0.934,
+        "quality": 0.604,
+        "breadth": 0.044
+      },
+      "metrics": {
+        "prsMerged": 8,
+        "linesChanged": 1306,
+        "prsByType": {
+          "fix": 8
+        },
+        "reviewsGiven": 2,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 2,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 8,
+        "codePRsWithTests": 8,
+        "commentsAuthored": 7,
+        "avgCommentLength": 982,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 2,
+        "areas": [
+          "Backend",
+          "Frontend"
+        ]
+      }
+    },
+    {
+      "login": "willwearing",
+      "impact": 0.417,
+      "prCount": 5,
+      "dimensions": {
+        "codeImpact": 0.209,
+        "contribution": 0.154,
+        "reliability": 0.901,
+        "quality": 0.868,
+        "breadth": 0.088
+      },
+      "metrics": {
+        "prsMerged": 5,
+        "linesChanged": 1098,
+        "prsByType": {
+          "fix": 3,
+          "feat": 2
+        },
+        "reviewsGiven": 2,
+        "inlineReviewComments": 2,
+        "reviewsApproved": 0,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 2,
+        "codePRsTotal": 5,
+        "codePRsWithTests": 5,
+        "commentsAuthored": 24,
+        "avgCommentLength": 450,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 2,
+        "areas": [
+          "Frontend",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "jakesciotto",
+      "impact": 0.416,
+      "prCount": 11,
+      "dimensions": {
+        "codeImpact": 0.462,
+        "contribution": 0.088,
+        "reliability": 0.956,
+        "quality": 0.429,
+        "breadth": 0.033
+      },
+      "metrics": {
+        "prsMerged": 11,
+        "linesChanged": 1284,
+        "prsByType": {
+          "fix": 10,
+          "feat": 1
+        },
+        "reviewsGiven": 0,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 0,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 11,
+        "codePRsWithTests": 11,
+        "commentsAuthored": 2,
+        "avgCommentLength": 1184,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 2,
+        "areas": [
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "pawel-cebula",
+      "impact": 0.401,
+      "prCount": 6,
+      "dimensions": {
+        "codeImpact": 0.176,
+        "contribution": 0.385,
+        "reliability": 0.44,
+        "quality": 0.802,
+        "breadth": 0.418
+      },
+      "metrics": {
+        "prsMerged": 6,
+        "linesChanged": 1478,
+        "prsByType": {
+          "fix": 5,
+          "feat": 1
+        },
+        "reviewsGiven": 7,
+        "inlineReviewComments": 4,
+        "reviewsApproved": 3,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 4,
+        "codePRsTotal": 6,
+        "codePRsWithTests": 5,
+        "commentsAuthored": 21,
+        "avgCommentLength": 459,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "Enterprise",
+          "Frontend",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "nickbest-ph",
+      "impact": 0.395,
+      "prCount": 9,
+      "dimensions": {
+        "codeImpact": 0.396,
+        "contribution": 0.681,
+        "reliability": 0.231,
+        "quality": 0.198,
+        "breadth": 0.429
+      },
+      "metrics": {
+        "prsMerged": 9,
+        "linesChanged": 2619,
+        "prsByType": {
+          "fix": 4,
+          "chore": 1,
+          "feat": 4
+        },
+        "reviewsGiven": 14,
+        "inlineReviewComments": 4,
+        "reviewsApproved": 11,
+        "reviewsChangesRequested": 1,
+        "reviewsCommented": 2,
+        "codePRsTotal": 8,
+        "codePRsWithTests": 6,
+        "commentsAuthored": 8,
+        "avgCommentLength": 192,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "Rust",
+          "nodejs",
+          "proto"
+        ]
+      }
+    },
+    {
+      "login": "ReeceJones",
+      "impact": 0.388,
+      "prCount": 6,
+      "dimensions": {
+        "codeImpact": 0.132,
+        "contribution": 0.725,
+        "reliability": 0.253,
+        "quality": 0.308,
+        "breadth": 0.714
+      },
+      "metrics": {
+        "prsMerged": 6,
+        "linesChanged": 2633,
+        "prsByType": {
+          "chore": 2,
+          "fix": 2,
+          "feat": 2
+        },
+        "reviewsGiven": 16,
+        "inlineReviewComments": 8,
+        "reviewsApproved": 16,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 4,
+        "codePRsWithTests": 3,
+        "commentsAuthored": 22,
+        "avgCommentLength": 145,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 5,
+        "areas": [
+          "Backend",
+          "Enterprise",
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "marandaneto",
+      "impact": 0.384,
+      "prCount": 14,
+      "dimensions": {
+        "codeImpact": 0.527,
+        "contribution": 0.22,
+        "reliability": 0.077,
+        "quality": 0.505,
+        "breadth": 0.604
+      },
+      "metrics": {
+        "prsMerged": 14,
+        "linesChanged": 2763,
+        "prsByType": {
+          "fix": 9,
+          "feat": 1,
+          "chore": 4
+        },
+        "reviewsGiven": 2,
+        "inlineReviewComments": 2,
+        "reviewsApproved": 1,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 1,
+        "codePRsTotal": 10,
+        "codePRsWithTests": 4,
+        "commentsAuthored": 21,
+        "avgCommentLength": 225,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 5,
+        "areas": [
+          "CI/CD",
+          "Frontend",
+          "cli",
+          "docs",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "patricio-posthog",
+      "impact": 0.378,
+      "prCount": 9,
+      "dimensions": {
+        "codeImpact": 0.407,
+        "contribution": 0.33,
+        "reliability": 0.143,
+        "quality": 0.484,
+        "breadth": 0.593
+      },
+      "metrics": {
+        "prsMerged": 9,
+        "linesChanged": 2555,
+        "prsByType": {
+          "feat": 1,
+          "fix": 8
+        },
+        "reviewsGiven": 4,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 4,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 9,
+        "codePRsWithTests": 6,
+        "commentsAuthored": 11,
+        "avgCommentLength": 664,
+        "commentsWithCodeBlocks": 1,
+        "areasCount": 5,
+        "areas": [
+          ".test_quarantine.json",
+          "Frontend",
+          "agent-os",
+          "pnpm-lock.yaml",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "lricoy",
+      "impact": 0.371,
+      "prCount": 7,
+      "dimensions": {
+        "codeImpact": 0.319,
+        "contribution": 0.791,
+        "reliability": 0.209,
+        "quality": 0.363,
+        "breadth": 0.143
+      },
+      "metrics": {
+        "prsMerged": 7,
+        "linesChanged": 1643,
+        "prsByType": {
+          "fix": 5,
+          "feat": 2
+        },
+        "reviewsGiven": 27,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 27,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 7,
+        "codePRsWithTests": 5,
+        "commentsAuthored": 9,
+        "avgCommentLength": 280,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 3,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "a-lider",
+      "impact": 0.371,
+      "prCount": 4,
+      "dimensions": {
+        "codeImpact": 0.066,
+        "contribution": 0.527,
+        "reliability": 0.923,
+        "quality": 0.154,
+        "breadth": 0.253
+      },
+      "metrics": {
+        "prsMerged": 4,
+        "linesChanged": 526,
+        "prsByType": {
+          "chore": 1,
+          "feat": 1,
+          "fix": 2
+        },
+        "reviewsGiven": 6,
+        "inlineReviewComments": 7,
+        "reviewsApproved": 6,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 3,
+        "codePRsWithTests": 3,
+        "commentsAuthored": 11,
+        "avgCommentLength": 127,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 3,
+        "areas": [
+          "Backend",
+          "Enterprise",
+          "Frontend"
+        ]
+      }
+    },
+    {
+      "login": "minekansu",
+      "impact": 0.363,
+      "prCount": 4,
+      "dimensions": {
+        "codeImpact": 0.22,
+        "contribution": 0.077,
+        "reliability": 0.912,
+        "quality": 0.33,
+        "breadth": 0.33
+      },
+      "metrics": {
+        "prsMerged": 4,
+        "linesChanged": 4134,
+        "prsByType": {
+          "feat": 3,
+          "fix": 1
+        },
+        "reviewsGiven": 0,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 0,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 4,
+        "codePRsWithTests": 4,
+        "commentsAuthored": 6,
+        "avgCommentLength": 511,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "CI/CD",
+          "Enterprise",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "joethreepwood",
+      "impact": 0.362,
+      "prCount": 6,
+      "dimensions": {
+        "codeImpact": 0.242,
+        "contribution": 0.022,
+        "reliability": 0.099,
+        "quality": 0.835,
+        "breadth": 0.934
+      },
+      "metrics": {
+        "prsMerged": 6,
+        "linesChanged": 952,
+        "prsByType": {
+          "fix": 3,
+          "feat": 3
+        },
+        "reviewsGiven": 0,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 0,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 6,
+        "codePRsWithTests": 3,
+        "commentsAuthored": 13,
+        "avgCommentLength": 716,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 6,
+        "areas": [
+          "CONTRIBUTING.md",
+          "Enterprise",
+          "Frontend",
+          "README.md",
+          "pnpm-lock.yaml",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "z0br0wn",
+      "impact": 0.36,
+      "prCount": 8,
+      "dimensions": {
+        "codeImpact": 0.516,
+        "contribution": 0.516,
+        "reliability": 0.264,
+        "quality": 0.264,
+        "breadth": 0.066
+      },
+      "metrics": {
+        "prsMerged": 8,
+        "linesChanged": 4675,
+        "prsByType": {
+          "perf": 1,
+          "fix": 3,
+          "feat": 4
+        },
+        "reviewsGiven": 10,
+        "inlineReviewComments": 1,
+        "reviewsApproved": 9,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 1,
+        "codePRsTotal": 8,
+        "codePRsWithTests": 6,
+        "commentsAuthored": 3,
+        "avgCommentLength": 312,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 3,
+        "areas": [
+          "CI/CD",
+          "Rust",
+          "nodejs"
+        ]
+      }
+    },
+    {
+      "login": "fivestarspicy",
+      "impact": 0.35,
+      "prCount": 7,
+      "dimensions": {
+        "codeImpact": 0.385,
+        "contribution": 0.066,
+        "reliability": 0.505,
+        "quality": 0.396,
+        "breadth": 0.407
+      },
+      "metrics": {
+        "prsMerged": 7,
+        "linesChanged": 1860,
+        "prsByType": {
+          "feat": 6,
+          "fix": 1
+        },
+        "reviewsGiven": 0,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 0,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 7,
+        "codePRsWithTests": 6,
+        "commentsAuthored": 3,
+        "avgCommentLength": 1323,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          "Frontend",
+          "pnpm-lock.yaml",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "cvolzer3",
+      "impact": 0.341,
+      "prCount": 11,
+      "dimensions": {
+        "codeImpact": 0.484,
+        "contribution": 0.253,
+        "reliability": 0.308,
+        "quality": 0.385,
+        "breadth": 0.176
+      },
+      "metrics": {
+        "prsMerged": 11,
+        "linesChanged": 2436,
+        "prsByType": {
+          "fix": 5,
+          "feat": 4,
+          "chore": 2
+        },
+        "reviewsGiven": 3,
+        "inlineReviewComments": 1,
+        "reviewsApproved": 2,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 1,
+        "codePRsTotal": 9,
+        "codePRsWithTests": 7,
+        "commentsAuthored": 5,
+        "avgCommentLength": 844,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          ".claude",
+          "Enterprise",
+          "Frontend",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "tomasfarias",
+      "impact": 0.338,
+      "prCount": 7,
+      "dimensions": {
+        "codeImpact": 0.341,
+        "contribution": 0.396,
+        "reliability": 0.429,
+        "quality": 0.341,
+        "breadth": 0.132
+      },
+      "metrics": {
+        "prsMerged": 7,
+        "linesChanged": 1780,
+        "prsByType": {
+          "feat": 6,
+          "chore": 1
+        },
+        "reviewsGiven": 6,
+        "inlineReviewComments": 1,
+        "reviewsApproved": 5,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 1,
+        "codePRsTotal": 6,
+        "codePRsWithTests": 5,
+        "commentsAuthored": 15,
+        "avgCommentLength": 194,
+        "commentsWithCodeBlocks": 1,
+        "areasCount": 3,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "jordanm-posthog",
+      "impact": 0.335,
+      "prCount": 6,
+      "dimensions": {
+        "codeImpact": 0.363,
+        "contribution": 0.308,
+        "reliability": 0.319,
+        "quality": 0.187,
+        "breadth": 0.484
+      },
+      "metrics": {
+        "prsMerged": 6,
+        "linesChanged": 5346,
+        "prsByType": {
+          "feat": 4,
+          "chore": 1,
+          "fix": 1
+        },
+        "reviewsGiven": 4,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 4,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 5,
+        "codePRsWithTests": 4,
+        "commentsAuthored": 1,
+        "avgCommentLength": 250,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "fercgomes",
+      "impact": 0.335,
+      "prCount": 8,
+      "dimensions": {
+        "codeImpact": 0.264,
+        "contribution": 0.703,
+        "reliability": 0.121,
+        "quality": 0.297,
+        "breadth": 0.308
+      },
+      "metrics": {
+        "prsMerged": 8,
+        "linesChanged": 4619,
+        "prsByType": {
+          "chore": 3,
+          "fix": 3,
+          "feat": 2
+        },
+        "reviewsGiven": 14,
+        "inlineReviewComments": 10,
+        "reviewsApproved": 14,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 5,
+        "codePRsWithTests": 3,
+        "commentsAuthored": 16,
+        "avgCommentLength": 156,
+        "commentsWithCodeBlocks": 1,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "E2E Tests",
+          "Frontend",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "phillram",
+      "impact": 0.303,
+      "prCount": 4,
+      "dimensions": {
+        "codeImpact": 0.099,
+        "contribution": 0.033,
+        "reliability": 0.813,
+        "quality": 0.527,
+        "breadth": 0.165
+      },
+      "metrics": {
+        "prsMerged": 4,
+        "linesChanged": 722,
+        "prsByType": {
+          "fix": 3,
+          "docs": 1
+        },
+        "reviewsGiven": 0,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 0,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 3,
+        "codePRsWithTests": 3,
+        "commentsAuthored": 7,
+        "avgCommentLength": 989,
+        "commentsWithCodeBlocks": 2,
+        "areasCount": 3,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "georgemunyoro",
+      "impact": 0.297,
+      "prCount": 4,
+      "dimensions": {
+        "codeImpact": 0.077,
+        "contribution": 0.648,
+        "reliability": 0.11,
+        "quality": 0.582,
+        "breadth": 0.231
+      },
+      "metrics": {
+        "prsMerged": 4,
+        "linesChanged": 901,
+        "prsByType": {
+          "feat": 1,
+          "fix": 3
+        },
+        "reviewsGiven": 15,
+        "inlineReviewComments": 3,
+        "reviewsApproved": 15,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 4,
+        "codePRsWithTests": 2,
+        "commentsAuthored": 10,
+        "avgCommentLength": 820,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 3,
+        "areas": [
+          ".flox",
+          "Backend",
+          "Frontend"
+        ]
+      }
+    },
+    {
+      "login": "christiaan-ph",
+      "impact": 0.263,
+      "prCount": 6,
+      "dimensions": {
+        "codeImpact": 0.165,
+        "contribution": 0.132,
+        "reliability": 0.451,
+        "quality": 0.275,
+        "breadth": 0.374
+      },
+      "metrics": {
+        "prsMerged": 6,
+        "linesChanged": 626,
+        "prsByType": {
+          "fix": 6
+        },
+        "reviewsGiven": 1,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 1,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 6,
+        "codePRsWithTests": 5,
+        "commentsAuthored": 5,
+        "avgCommentLength": 293,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "xljones",
+      "impact": 0.261,
+      "prCount": 3,
+      "dimensions": {
+        "codeImpact": 0.044,
+        "contribution": 0.176,
+        "reliability": 0.89,
+        "quality": 0.011,
+        "breadth": 0.22
+      },
+      "metrics": {
+        "prsMerged": 3,
+        "linesChanged": 281,
+        "prsByType": {
+          "fix": 3
+        },
+        "reviewsGiven": 2,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 2,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 3,
+        "codePRsWithTests": 3,
+        "commentsAuthored": 0,
+        "avgCommentLength": 0,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 3,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "nodejs"
+        ]
+      }
+    },
+    {
+      "login": "seanpem",
+      "impact": 0.245,
+      "prCount": 3,
+      "dimensions": {
+        "codeImpact": 0.033,
+        "contribution": 0.11,
+        "reliability": 0.989,
+        "quality": 0.077,
+        "breadth": 0.022
+      },
+      "metrics": {
+        "prsMerged": 3,
+        "linesChanged": 142,
+        "prsByType": {
+          "fix": 3
+        },
+        "reviewsGiven": 0,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 0,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 3,
+        "codePRsWithTests": 3,
+        "commentsAuthored": 2,
+        "avgCommentLength": 148,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 1,
+        "areas": [
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "rodrigoi",
+      "impact": 0.238,
+      "prCount": 7,
+      "dimensions": {
+        "codeImpact": 0.286,
+        "contribution": 0.242,
+        "reliability": 0.033,
+        "quality": 0.11,
+        "breadth": 0.538
+      },
+      "metrics": {
+        "prsMerged": 7,
+        "linesChanged": 2086,
+        "prsByType": {
+          "chore": 3,
+          "feat": 4
+        },
+        "reviewsGiven": 3,
+        "inlineReviewComments": 1,
+        "reviewsApproved": 2,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 1,
+        "codePRsTotal": 4,
+        "codePRsWithTests": 1,
+        "commentsAuthored": 10,
+        "avgCommentLength": 116,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 5,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "pnpm-lock.yaml",
+          "products",
+          "services"
+        ]
+      }
+    },
+    {
+      "login": "rossgray",
+      "impact": 0.236,
+      "prCount": 4,
+      "dimensions": {
+        "codeImpact": 0.11,
+        "contribution": 0.484,
+        "reliability": 0.242,
+        "quality": 0.176,
+        "breadth": 0.209
+      },
+      "metrics": {
+        "prsMerged": 4,
+        "linesChanged": 591,
+        "prsByType": {
+          "fix": 3,
+          "feat": 1
+        },
+        "reviewsGiven": 8,
+        "inlineReviewComments": 6,
+        "reviewsApproved": 5,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 3,
+        "codePRsTotal": 4,
+        "codePRsWithTests": 3,
+        "commentsAuthored": 10,
+        "avgCommentLength": 148,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 3,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "clr182",
+      "impact": 0.227,
+      "prCount": 7,
+      "dimensions": {
+        "codeImpact": 0.187,
+        "contribution": 0.143,
+        "reliability": 0.516,
+        "quality": 0.022,
+        "breadth": 0.242
+      },
+      "metrics": {
+        "prsMerged": 7,
+        "linesChanged": 547,
+        "prsByType": {
+          "fix": 7
+        },
+        "reviewsGiven": 1,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 1,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 7,
+        "codePRsWithTests": 6,
+        "commentsAuthored": 0,
+        "avgCommentLength": 0,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 3,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "fasyy612",
+      "impact": 0.173,
+      "prCount": 3,
+      "dimensions": {
+        "codeImpact": 0.121,
+        "contribution": 0.341,
+        "reliability": 0.154,
+        "quality": 0.066,
+        "breadth": 0.187
+      },
+      "metrics": {
+        "prsMerged": 3,
+        "linesChanged": 795,
+        "prsByType": {
+          "fix": 2,
+          "feat": 1
+        },
+        "reviewsGiven": 4,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 4,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 3,
+        "codePRsWithTests": 2,
+        "commentsAuthored": 5,
+        "avgCommentLength": 61,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 3,
+        "areas": [
+          "Backend",
+          "Frontend",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "Twixes",
+      "impact": 0.147,
+      "prCount": 3,
+      "dimensions": {
+        "codeImpact": 0.022,
+        "contribution": 0.297,
+        "reliability": 0.165,
+        "quality": 0.044,
+        "breadth": 0.275
+      },
+      "metrics": {
+        "prsMerged": 3,
+        "linesChanged": 158,
+        "prsByType": {
+          "fix": 2,
+          "feat": 1
+        },
+        "reviewsGiven": 3,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 3,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 3,
+        "codePRsWithTests": 2,
+        "commentsAuthored": 0,
+        "avgCommentLength": 0,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 3,
+        "areas": [
+          "Frontend",
+          "services",
+          "tools"
+        ]
+      }
+    },
+    {
+      "login": "JakeRuth",
+      "impact": 0.137,
+      "prCount": 4,
+      "dimensions": {
+        "codeImpact": 0.088,
+        "contribution": 0.011,
+        "reliability": 0.088,
+        "quality": 0.242,
+        "breadth": 0.363
+      },
+      "metrics": {
+        "prsMerged": 4,
+        "linesChanged": 731,
+        "prsByType": {
+          "fix": 2,
+          "feat": 2
+        },
+        "reviewsGiven": 0,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 0,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 4,
+        "codePRsWithTests": 2,
+        "commentsAuthored": 1,
+        "avgCommentLength": 338,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 4,
+        "areas": [
+          "Frontend",
+          "packages",
+          "pnpm-lock.yaml",
+          "products"
+        ]
+      }
+    },
+    {
+      "login": "JamesPatrickGill",
+      "impact": 0.085,
+      "prCount": 3,
+      "dimensions": {
+        "codeImpact": 0.055,
+        "contribution": 0.231,
+        "reliability": 0.011,
+        "quality": 0.121,
+        "breadth": 0.011
+      },
+      "metrics": {
+        "prsMerged": 3,
+        "linesChanged": 870,
+        "prsByType": {
+          "feat": 1,
+          "fix": 1,
+          "chore": 1
+        },
+        "reviewsGiven": 1,
+        "inlineReviewComments": 2,
+        "reviewsApproved": 1,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 2,
+        "codePRsWithTests": 0,
+        "commentsAuthored": 5,
+        "avgCommentLength": 172,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 1,
+        "areas": [
+          "Rust"
+        ]
+      }
+    },
+    {
+      "login": "k33lan",
+      "impact": 0.047,
+      "prCount": 3,
+      "dimensions": {
+        "codeImpact": 0.011,
+        "contribution": 0.099,
+        "reliability": 0.022,
+        "quality": 0.033,
+        "breadth": 0.099
+      },
+      "metrics": {
+        "prsMerged": 3,
+        "linesChanged": 34,
+        "prsByType": {
+          "fix": 2,
+          "chore": 1
+        },
+        "reviewsGiven": 0,
+        "inlineReviewComments": 0,
+        "reviewsApproved": 0,
+        "reviewsChangesRequested": 0,
+        "reviewsCommented": 0,
+        "codePRsTotal": 2,
+        "codePRsWithTests": 0,
+        "commentsAuthored": 0,
+        "avgCommentLength": 0,
+        "commentsWithCodeBlocks": 0,
+        "areasCount": 2,
+        "areas": [
+          "Dockerfile.llm-analytics",
+          "Dockerfile.ml-mirror-image-scrub"
+        ]
+      }
+    }
+  ]
+}
