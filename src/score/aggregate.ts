@@ -47,11 +47,12 @@ export function scoreAll(): void {
   const raw: RawSnapshot = JSON.parse(readFileSync('data/raw.json', 'utf-8'));
   const { prs } = raw;
 
-  // Group authored PRs by login
+  // Group authored PRs by login, excluding known bots
   const byAuthor = new Map<string, PullRequest[]>();
   for (const pr of prs) {
     const login = pr.author?.login;
     if (!login) continue;
+    if (config.botLogins.has(login)) continue;
     if (!byAuthor.has(login)) byAuthor.set(login, []);
     byAuthor.get(login)!.push(pr);
   }
